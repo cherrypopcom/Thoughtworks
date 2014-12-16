@@ -10,7 +10,7 @@ function addToCart(product){
 }
 
 function goToHome(){
-window.location.href="ywj.html";}
+window.location.href="Home.html";}
 
 function goToCart(){
 window.location.href="cart.html";

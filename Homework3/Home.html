@@ -49,41 +49,24 @@
             <p>￥35元</p>
 			</span>
          </td>
-             </tr>
-	   </table>
-     </div>
-	  <ul class="flow_order">  
-	  <h2>我的购物车</h2>
+         </tr>
+		 </table>
+       </div>
+     
+
+    <div class="disk">
+      <h2 class="disk-title" id="ct1">光盘</h2>
       <hr size="3" color="black" noshade>
-      <li>
-           <table width="80%" border="0" cellpadding="0" cellspacing="0" class="goodslist">
-              <tbody>
-			  <tr class="oltd_odd">
-                 <th width="100" style="border:none;" align="left"> 商品名称</th>
-                 <th width="80" style="border:none;" align="center">商品数量</th>
-                 <th width="20" style="border:none;" align="center">&nbsp;</th>
-                 <th width="80" style="border:none;" align="center"> 商品单价</th>
-                 <th width="20" style="border:none;" align="center">&nbsp;</th>
-                 <th width="109" style="border:none;" align="center"> 商品总价       </th>
-              </tr>
-              <tr>
-                 <td width="100" align="left"><div id="ProductName"></div></td>
-                 <td align="center">
-	                  <input id="min" name="" type="button" value="-" />
-	                  <input style="text-align:center;font-size:16px;" type="text" name="t_num" id="t_num" class="inputs flow_num" value="1">
-	                  <input id="add" name="" type="button" value="+"/>
-	            </td>
-                <td align="center">×</td>
-                <td align="center">￥ <font id="UnitPrice">4.9</font></td>
-                <td align="center">=</td>
-                <td align="center" style="font-size:16px">￥ <font id="TotalPrice"></font></td>
-             </tr>
-            </tbody>
-		</table>
-     </li>            
-     </ul>
-	   
-	   <footer>
+	  <input id="productName" placeholder="请输入商品名称"></input>
+	   <input id="productImg" placeholder="请输入图片链接"></input>
+	    <input id="productDesc" placeholder="请输入商品描述"></input>
+		<button onclick="add()">add</button>
+		<br>
+		<input id="search" placeholder="搜索" onkeyup=search()></input>
+        <div id="container"></div>
+    </div>
+
+    <footer>
       <div class="footer-left">
         <h2>联系我们</h2>
         <p>
