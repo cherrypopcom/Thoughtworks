@@ -1,0 +1,157 @@
+body{
+width:1400px;
+}
+
+#magnifier{
+ position:relative;
+ left:10px;
+ font-size:0;
+}
+#Browser{
+ border:1px solid #000;
+ z-index:100;
+ position:absolute;
+ background:#555;
+}
+#mag{
+ border:1px solid #000;
+ overflow:hidden;
+ z-index:100;
+}
+body header{
+  background-color:#dddddd;
+  margin-left:100px;
+}
+body header .header-left{
+  position:fixed;
+  left:100px;
+  top:10px;
+}
+
+body header .header-right{
+  position:fixed;
+  right:100px;
+  top:10px;
+}
+
+body  .content{
+  margin-left:100px;
+  margin-top:80px;
+  width:1600px;
+  height:400px
+}
+body .content ul{
+  display:block;
+  background-color:#dddddd;
+  list-style-type:none;
+  width:200px;
+  height:350px;
+  font-size:20px;
+  font-weight:bold;
+  }
+ body .content img{
+  width:400px;
+  height:400px;
+  }
+   body .content span{
+  font-size:20px;
+  font-weight:bold;
+  text-align:right;
+  float:right;
+  }
+body .disk{
+  float:left;
+  margin-left:125px;
+}
+
+body .disk-title {
+  margin-bottom: -1px;
+}
+body .disk img{
+  width:300px;
+  height:300px;
+  align:center;
+}
+body .disk1,.disk2,.disk3{
+  float:left;
+  text-align:center;
+}
+
+body  .disk2,.disk3{
+  margin-left:80px;
+}
+
+body .U-disk{
+  float:left;
+  margin-left:125px;
+}
+body .U-disk img{
+  width:300px;
+  height:300px;
+  align:center;
+}
+
+body .hard-disk{
+  float:left;
+  margin-left:125px;
+}
+body .hard-disk img{
+  width:300px;
+  height:300px;
+  align:center;
+}
+.intro{
+  align:center;
+  font-size:22px;
+}
+/*上方可重构*/
+body footer{
+  float:left;
+  margin-top:30px;
+  background-color:rgb(238, 233, 233);
+  padding-right: 175px;
+  padding-bottom: 50px;
+}
+
+body footer img{
+  width:480px;
+  height:200px;
+}
+
+.footer-left{
+  float:left;
+  margin-left:100px;
+}
+.footer-right{
+  float:left;
+  margin-left:220px;
+}
+
+
+.flow_order {
+ font-size:14px; 
+ margin-left:80px;
+ }
+.flow_order th {
+ height:20px;
+ padding:30px;
+ }
+.flow_order td {
+ height:20px; 
+ padding:10px;
+ font-family:Arial, Helvetica, sans-serif;
+ }
+.flow_order td span {
+color:#C90809;
+}
+.flow_num {
+ width:80px;
+ }
+.inputs {
+ border:1px solid #ffc569;
+ background-color:#fff; 
+ height:23px; 
+ line-height:23px; 
+ padding:0 5px;
+ argin-right:10px;
+ } 
